@@ -1,0 +1,20 @@
+@media screen and (max-width: 800px) {
+    .container-l{
+        display: none !important;
+    }
+    .main{
+        flex-direction: column;
+        height: 100vh;
+    }
+    .container-r{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .botones-login{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
